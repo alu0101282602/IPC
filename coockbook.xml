@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='coock_XSL.xsl'?>
+<LIBRODECOCINA>
+    <RECETA>
+        <TITULO>Sopa de Calabaza</TITULO>
+        <INGREDIENTE>
+            <NOMBRE>calabaza</NOMBRE>
+            <CANTIDAD>2</CANTIDAD>
+            <UNIDAD>kg</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>ajo</NOMBRE>
+            <CANTIDAD>4</CANTIDAD>
+            <UNIDAD>dientes</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>sal</NOMBRE>
+            <CANTIDAD>2</CANTIDAD>
+            <UNIDAD>Cucharas</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Aeeite de Oliva</NOMBRE>
+            <CANTIDAD>3</CANTIDAD>
+            <UNIDAD>cucharaditas</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Agua</NOMBRE>
+            <CANTIDAD>200</CANTIDAD>
+            <UNIDAD>mililitros</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Papa</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Unidad</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Zanahoria</NOMBRE>
+            <CANTIDAD>2</CANTIDAD>
+            <UNIDAD>Unidades</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Pimienta</NOMBRE>
+            <CANTIDAD>2</CANTIDAD>
+            <UNIDAD>cucharas</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>ajo</NOMBRE>
+            <CANTIDAD>4</CANTIDAD>
+            <UNIDAD>dientes</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Caldo de verdura</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Litro</UNIDAD>
+        </INGREDIENTE>
+        <ELABORACION>
+            <PASO num="1">Cortamos las verduras: puerro, zanahorias, cebolla y patatas.</PASO>
+            <PASO num="2">Calentamos en una olla Aceite de Oliva Virgen
+               Extra Excelencia La Masía, y a continuación rehogamos todas las verduras durante unos minutos.</PASO>
+            <PASO num="3">	Salpimentamos e incorporamos el caldo hasta cubrirla verdura.
+              Dejamos cocerse la verdura durante aprox. 1 hora y cuarto a fuego medio/bajo.</PASO>
+            <PASO num="4">Batimos la verdura hasta hacer una crema.</PASO>
+        </ELABORACION>
+    </RECETA>
+    <RECETA>
+        <TITULO>Tarta de Manzana</TITULO>
+        <INGREDIENTE>
+            <NOMBRE>Manzana</NOMBRE>
+            <CANTIDAD>4</CANTIDAD>
+            <UNIDAD>Unidades</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Harina</NOMBRE>
+            <CANTIDAD>180</CANTIDAD>
+            <UNIDAD>gramos</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Polovo para Hornear</NOMBRE>
+            <CANTIDAD>8</CANTIDAD>
+            <UNIDAD>Gramos</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Huevo</NOMBRE>
+            <CANTIDAD>2</CANTIDAD>
+            <UNIDAD>Unidades</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Azucar</NOMBRE>
+            <CANTIDAD>120</CANTIDAD>
+            <UNIDAD>Unidades</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Leche</NOMBRE>
+            <CANTIDAD>175</CANTIDAD>
+            <UNIDAD>mililitros</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Frutos Rojos</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Puñado</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Mermelada de albaricoque</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Cucharadita</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Mantequilla</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Cucharada</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Hoja de Menta</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Unidad</UNIDAD>
+        </INGREDIENTE>
+        <ELABORACION>
+            <PASO num="1">Coloca la harina, la levadura, los huevos, el azúcar, 2 manzanas (peladas y cortada
+              s en dados) y la leche en el vaso batidor. Tritura hasta que quede una masa homogénea.</PASO>
+            <PASO num="2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </PASO>
+            <PASO num="3">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </PASO>
+            <PASO num="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </PASO>
+        </ELABORACION>
+    </RECETA>
+    <RECETA>
+        <TITULO>Costillas de Cerdo</TITULO>
+        <INGREDIENTE>
+            <NOMBRE>Costillal</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>pieza</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Ajo</NOMBRE>
+            <CANTIDAD>3</CANTIDAD>
+            <UNIDAD>dientes</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Sal</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>Cucharadita</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Azucar</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>pizca</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Oregano</NOMBRE>
+            <CANTIDAD>3</CANTIDAD>
+            <UNIDAD>Cucharadas</UNIDAD>
+        </INGREDIENTE>
+        <INGREDIENTE>
+            <NOMBRE>Ralladura de Limon</NOMBRE>
+            <CANTIDAD>1</CANTIDAD>
+            <UNIDAD>cucharadita</UNIDAD>
+        </INGREDIENTE>
+        <ELABORACION>
+            <PASO num="1">Limpiar muy bien el costillar y retirar el exceso de grasa.</PASO>
+            <PASO num="2">Cortar cuidadosamente la chuleta por unidades.</PASO>
+            <PASO num="3">Aplastar cada una para ponerlas más delgadas y que penetre mejor el sabor.</PASO>
+            <PASO num="4">Picar el ajo y el orégano finamente. Agregar sal al gusto y una pizca de azúcar.</PASO>
+            <PASO num="5">Aplastar un poco con el cuchillo para que quede más deshecho, como una pasta y sea más fácil para esparcir.</PASO>
+            <PASO num="6">Dar un masaje a cada porción de carne por lado y lado con la mezcla. Se necesita poca cantidad, solo para que tenga un poco de olor y sabor.</PASO>
+            <PASO num="7">Dejar en la nevera al menos por entre 30 minutos y una hora.</PASO>
+            <PASO num="8">Poner las costillas en un plato, agregar la ralladura del limón amarillo y dejar hasta que estén a temperatura ambiente.</PASO>
+            <PASO num="9">Agregar más sal si es necesario.</PASO>
+            <PASO num="10">La parrilla debe estar bien caliente, engrasar si es necesario para que no se peguen, aunque el cordero tiene grasa. </PASO>
+            <PASO num="11">Se dejan 3 ó 4 minutos por cada lado o más si las quiere más asadas.</PASO>
+            <PASO num="12">Servir adornadas con orégano fresco y rodajas o cascos de limón.</PASO>
+        </ELABORACION>
+    </RECETA>
+</LIBRODECOCINA>
