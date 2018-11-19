@@ -1,0 +1,460 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Lobster', cursive;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+header img {
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+body {
+  background: url(../img/background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Bellefair', serif;
+  line-height: 1.5em;
+}
+
+section {
+  background-color:rgba(234, 224, 215, 0.7); /* beige transparent */
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #333; /* dunkelgrau */
+  padding: 1.5em;
+  margin-top: 0.5em;
+  color: #eae0d7; /* beige */
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #333; /* dunkelgrau */
+}
+
+h2, h3 {
+  font-family: 'Lobster', cursive;
+  font-family: 'Fjalla One', sans-serif;
+  color: #eae0d7; /* beige */
+  margin-top: 0em;
+  margin-bottom: 0em;
+  line-height: 3;
+}
+
+/* horizontal line in the footer */
+hr {
+  color: #eae0d7; /* beige */
+  border-width: medium;
+}
+
+p {
+  margin: 0px;
+  line-height: 1.5;
+}
+
+input,textarea, button {
+  background-color:rgba(241, 118, 0, 0.6); /* orange transparent */
+  color: #333; /* dunkelgrau */
+  border-color: #333; /* dunkelgrau */
+  border-width: medium;
+  border-style: solid;
+}
+
+/******************************************************************************
+********************           BUTTON BACK TO TOP          ********************
+******************************************************************************/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #f17600; /* orange */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#myBtn:hover {
+  background-color: #333; /* dunkelgrau */
+}
+
+/******************************************************************************
+********************           NAVIGATION                  ********************
+******************************************************************************/
+.topnav {
+  overflow: hidden;
+  background-color: #333; /* dunkelgrau */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #eae0d7; /* beige */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #eae0d7; /* beige */
+  color: black;
+}
+
+.active {
+  background-color: #f17600; /* orange */
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/******************************************************************************
+********************           MEDIA QUERIES               ********************
+******************************************************************************/
+
+/* MQ für Navigation */
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    width: 4%
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4%;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .active {
+    background-color: #f17600; /*orange*/
+    color: white;
+    width: 100%;
+  }
+  .topnav a:hover {
+    background-color: #eae0d7; /*beige*/
+    color: black;
+    width: 100%;
+  }
+  .topnav a.icon:hover {
+    background-color: #eae0d7; /*beige*/
+    color: black;
+    width:4%;
+  }
+}
+
+/* more than Huge */
+@media screen and (min-width: 1281px) {
+  section {
+    /*background-color: purple;*/
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+
+  iframe {
+    width: 800px;
+    height: 400px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
+
+/* Huge */
+@media screen and (max-width: 1280px) {
+  section {
+    /*background-color: red;*/
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  iframe {
+    width: 700px;
+    height: 350px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+}
+
+/* Desktop */
+@media screen and (max-width: 992px) {
+  section {
+    /*background-color: yellow;*/
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  iframe {
+    width: 400px;
+    height: 200px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  section {
+    /*background-color: green;*/
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  iframe {
+    width: 320px;
+    height: 150px;
+  }
+
+  input,textarea,button {
+    font-size: 10px;
+    border-width: thin;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
+
+/* Mobile 1 */
+@media screen and (max-width: 480px) {
+  section {
+    /*background-color: blue;*/
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  iframe {
+    width: 250px;
+    height: 100px;
+  }
+
+  input,textarea, button {
+    font-size: 7px;
+    border-width: thin;
+  }
+
+  h2 {
+    font-size: 8px;
+  }
+
+  h3 {
+    font-size: 6px;
+  }
+
+  footer {
+    font-size: 5px;
+  }
+}
+
+/* Mobile 2 */
+@media screen and (max-width:320px) {
+  section {
+    /*background-color: pink;*/
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 12px;
+  }
+
+  iframe {
+    width: 200px;
+    height: 100px;
+  }
+
+  input,textarea, button {
+    font-size: 6px;
+    border-width: thin;
+  }
+
+  h2 {
+    font-size: 8px;
+  }
+
+  h3 {
+    font-size: 6px;
+  }
+
+  footer {
+    font-size: 5px;
+  }
+}
+
+
+
+/******************************************************************************
+********************      Horizontal Line Sections         ********************
+******************************************************************************/
+
+hr.style-six {
+padding: 0;
+border: none;
+height: 1px;
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+color: #333;
+text-align: center;
+}
+
+/******************************************************************************
+********************             OTHER                     ********************
+******************************************************************************/
+
+.slider .slide {
+  margin-right: 10px;
+  height: 150px;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.single img {
+  width: 30%;
+  margin-right: 2%;
+  float: left;
+}
+
+.single img:first-child {
+  margin-left: 2%;
+}
+
+.gallery .thumbnail img {
+  width: 300px;
+}
+
+.flex-center-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.contact .flex-center-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact .flex-center-container .left {
+  padding-right: 5%;
+  flex: 1;
+}
+
+.contact .flex-center-container .right {
+  flex: 1;
+  padding-left: 5%;
+}
+
+.contact .flex-center-container input {
+  width: 100%;
+}
+
+.contact textarea {
+  width: 100%;
+}
+
+footer .flex-center-container {
+  text-align: left;
+}
+
+footer .flex-center-container .left {
+  padding-right: 5%;
+  flex: 1;
+}
+
+footer .flex-center-container .right {
+  padding-left: 5%;
+  flex: 1;
+}
