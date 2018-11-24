@@ -1,0 +1,17 @@
+.our-recipes{
+	height: auto;
+}
+
+.our-recipes h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 60px;
+}
+
+.our-recipes img{
+	width: 100%;
+}
+
+.gallery-Recipes{
+	margin-bottom: 30px;
+}
