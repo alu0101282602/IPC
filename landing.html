@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	  	<meta name="description" content="Libro de Recetas Online">
+	 	<meta name="keywords" content="Recetas,Libro,Cocina, Ingredientes, Repositorio">
+	  	<meta name="author" content="Robin Dominic Steiger, Julian Herrdum, Leonardo Dorta">
+
+		<!-- StatusBar -->
+		<title>My CookBook</title>
+		<link rel="shortcut icon" href="img/icon.gif" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/our-recepies.css">
+		<link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/headerStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/formStyle.css">
+
+		<!-- Firebase -->
+		<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+
+		<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+				<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+
+		<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+		<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+			<!-- FirebaseUI -->
+	 <script src="https://cdn.firebase.com/libs/firebaseui/3.5.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.1/firebaseui.css" />
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131733056-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-131733056-1');
+	</script>
+
+	</head>
+
+
+
+	<body>
+
+		<header>
+				<!-- Barra de menu -->
+			<div class="topnav" id="navbar">
+				<a class="active" href="#home">Home</a>
+				<a href="#recepies">Recipes</a>
+				<a href="#inscribirse">Sing Up</a>
+			</div>
+				<!-- Bienvenida con Carrusel-->
+			<div class="header" style="padding-left:16px">
+				<h1>My CookBook</h1>
+				<p>El Repositorio Web de Recetas hecho para ti</p>
+				<p>Aqui podras encontrar todo tipo de recetas relizadas y evaluadas por la comunidad!.</p>
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100 img-fluid" src="img/pasta2.jpg" alt="First slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100 img-fluid" src="img/burger.jpg" alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100 img-fluid" src="img/salad2.jpg" alt="Third slide">
+				    </div>
+				  </div>
+				</div>					
+			</div>
+
+		</header>
+
+		<!-- Apartado de Recetas-->
+
+		<div id='recepies'	 class="our-recipes">	
+
+			<h2>Our Recipes</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="gallery-Recipes col-md-4">
+		                <img src="img/pie.jpg" class="img-responsive">
+		            </div>
+					<div class="gallery-Recipes col-md-4">
+		                <img src="img/ribs.jpg" class="img-responsive">
+		            </div>
+		            <div class="gallery-Recipes col-md-4">
+		                <img src="img/pasta.jpg" class="img-responsive">
+		            </div>
+		            <div class="gallery-Recipes col-md-4">
+		                <img src="img/salad.jpg" class="img-responsive">
+		            </div>
+		            <div class="gallery-Recipes col-md-4">
+		                <img src="img/chocolate.jpg" class="img-responsive">
+		            </div>
+		            <div class="gallery-Recipes col-md-4">
+		                <img src="img/paella.jpg" class="img-responsive">
+		            </div>
+		        </div>
+	        </div>
+		</div>
+
+		<div id='inscribirse' class="form">
+			<div class="container">
+			  <h2>Forma parte de nuestra comunidad</h2>
+			  <form action="pagina2.html" method="get">
+			    <div class="form-group">
+			      
+			      <input type="nombre" class="form-control" id="nombre" placeholder="Nombre" name="nombre" pattern="[a-zA-Z]{3,}" required>
+			    </div>
+			    <div class="form-group">
+			      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" pattern="[a-z0-9._%+-]{3,}@[a-z0-9.-]{3,}\.[a-z]{2,}$" required>
+			    </div>
+			    <div class="form-group">
+			      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" pattern="[a-z0-9._%+-]{3,}" required>
+			    </div>
+				<div class="form-group">
+				  <label for="comment">Comment:</label>
+				  <textarea class="form-control" rows="5" id="comment" placeholder="Comentario" pattern="[a-z0-9._%+-]" required></textarea>
+				</div>
+			    <br>
+			    <p>Tu conocimiento de Cocina es:</p>
+			    <div class="radio-buttons">
+				    <label class="radio-inline">
+				      <input type="radio" name="Bajo" checked>Bajo
+				    </label>
+				    <label class="radio-inline">
+				      <input type="radio" name="Medio">Medio
+				    </label>
+				    <label class="radio-inline">
+				      <input type="radio" name="Alto">Alto
+				    </label>
+				    <br>
+
+				    <label>
+				    	<input id='termino' type="checkbox" required  name="Term" value="Term"> Aceptar Terminos<br>
+				    </label>
+				</div>
+			    <button onclick="comprobar()" type="submit" class="btn btn-default" >Registrar</button>
+			  </form>
+			</div>
+		</div>				
+
+		
+
+
+		<script src="js/checkMail.js"></script>
+		<script src="js/FixedNavbar.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/authentication.js"></script>
+
+
+	</body>
+</html>
