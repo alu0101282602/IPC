@@ -1,0 +1,50 @@
+.header{
+	height: 100vh;
+	text-align: center;
+
+}
+
+.header h1,p{
+	position: relative;
+	top: 30%;
+	margin-bottom: 20px;
+}
+
+.header h1{
+	font-size: 5em;
+	color: #224C99;
+}
+
+.header p{
+	font-size: 1.5em;
+	color: #224C99;
+	
+}
+
+.carousel{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 100vh;
+}
+
+
+.carousel-item img {
+  height: 100vh;
+  opacity: 0.3;
+}
+
+.carousel-item{
+	background-color:white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar{
+	z-index: 2;
+}
