@@ -26,7 +26,7 @@ válido.
 - [ ] Enviar datos del formulario a pagina2.html usando el método GET.
 ## CSS
 - [x] Crear css con imagen de fondo para el cuerpo, Colores
-personalizados para titulos (<h1>...), y para diferentes componentes
+personalizados para titulos (<#h1>...), y para diferentes componentes
 del formulario.
 ## JavaScript
 - [x] Crear javascript que compruebe que el email tiene un formato
