@@ -40,7 +40,7 @@ pantalla.
 - [ ] Definir grid para la estructura de la página.
 - [x] Usar elementos bootstrap
 ## Firebase
-- [ ] Autenticación de usuarios
+- [x] Autenticación de usuarios
 - [ ] Analytics,…
 - [ ] Otro servicio con Firebase, BBDD, Ads, Crashlytics
 XML
